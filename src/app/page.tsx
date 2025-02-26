@@ -3,14 +3,11 @@
 import { useState, useEffect } from "react";
 import Image from 'next/image';
 import {
-  FaSafari,
   FaMapMarkedAlt,
-  FaSun,
-  FaUmbrellaBeach,
   FaCamera,
   FaHandHoldingHeart,
 } from "react-icons/fa";
-import { GiLion, GiElephant, GiAfrica } from "react-icons/gi";
+import { GiLion, GiAfrica } from "react-icons/gi";
 
 type ItineraryDay = {
   day: number;
